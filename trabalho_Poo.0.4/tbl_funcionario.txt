@@ -1,0 +1,11 @@
+create database trabalhopoo;
+use trabalhopoo;
+create table funcionario (
+
+nome VARCHAR(255),
+matricula int,
+cargo VARCHAR(255),
+senha varchar(255),
+primary key (matricula)
+);
+select * from funcionario;
